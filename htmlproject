@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>FORM</title>
+   <link rel="stylesheet" href="form.css">
+
+  </head>
+  <body>
+               <h3>HTML FORM</h3> 
+    
+    <form  target="hello.php"  class="FORM">
+       <div>
+        
+        Name:<input type="text" name="myname" id="first"></input>
+        
+     </div>
+       <div>
+        <br>
+        email:<input type="email" name="myemail" id="second"></input>
+        
+       </div>
+
+       <div> <br>
+        Phone no.:<input type="number" name="mynumber" id="third"></input>
+        
+       </div>
+       <div> <br>
+        DOB:<input type="date" name="myDOB" ></input>
+        
+       </div>
+
+       <div>
+        <br>
+        WRITE ABOUT YOURSELF: <br> <textarea rows="5" cols="10"> </textarea>
+       </div>
+
+       <div>
+        <br> GENDER: MALE <input type="radio" name="mygender"> FEMALE <input type="radio" name="mygender"> OTHER<input type="radio" name="mygender">
+
+
+       </div>
+
+
+
+
+
+           <div>
+            <br>
+         <input type="submit" name="SUBMIT" >  <input type="reset" name="reset">
+           </div>
+
+</form>
+  </body>
+</html>
